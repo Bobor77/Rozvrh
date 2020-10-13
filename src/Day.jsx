@@ -6,7 +6,8 @@ class Day extends React.Component {
     render() {
         return (
             <tr>
-                <Subject/>
+                <th>{this.props.name}</th>
+                <Subject name="pos"/>
             </tr>
         );
     }

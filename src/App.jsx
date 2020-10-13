@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 // import { render } from '@testing-library/react';
 import React from 'react';
 import './App.css';
@@ -21,7 +20,7 @@ class App extends React.Component {
                     </tr>
                 </thead>
                 <tbody>
-                    <Day/>
+                    <Day name="PON"/>
                 </tbody>
             </table>
         );
