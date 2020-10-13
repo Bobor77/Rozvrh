@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 import Day from './Day.jsx'; 
+import Line from './Line.jsx'
 
 class App extends React.Component {
 
@@ -12,21 +13,24 @@ class App extends React.Component {
         ));;
 
         return (
-            <table>
-                <thead>
-                    <tr>
-                        <th>&nbsp;</th>
-                        {numbers}
-                    </tr>
-                </thead>
-                <tbody>
-                    <Day name="PON" subjects="odp odp cvm tsv anj sjl obn" index="1"/>
-                    <Day name="UTO" subjects="mat fyz pos pos anj eko eko" index="2"/>
-                    <Day name="STR" subjects="mat anj sjl sgp cas odp odp" index="3"/>
-                    <Day name="ŠTV" subjects="asw anj mat fyz tsv pro pro" index="4"/>
-                    <Day name="PIA" subjects="sgp sos sjl pos cps kaj cio" index="5"/>
-                </tbody>
-            </table>
+            <div id="main">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            {numbers}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <Day name="PON" subjects="odp odp cvm tsv anj sjl obn" index="1"/>
+                        <Day name="UTO" subjects="mat fyz pos pos anj eko eko" index="2"/>
+                        <Day name="STR" subjects="mat anj sjl sgp cas odp odp" index="3"/>
+                        <Day name="ŠTV" subjects="asw anj mat fyz tsv pro pro" index="4"/>
+                        <Day name="PIA" subjects="sgp sos sjl pos cps kaj cio" index="5"/>
+                    </tbody>
+                </table>
+                <Line/>
+            </div>
         );
     }
 

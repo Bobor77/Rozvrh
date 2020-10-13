@@ -1,9 +1,28 @@
 table {
     border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
-
 
 th, td {
     border: solid 2px #333;
     padding: 1em;
+}
+
+th:first-child {
+    width: 50px;
+}
+
+thead {
+    height: 30px;
+}
+
+tbody {
+    height: 670px;
+}
+
+#main {
+    width: 700px;
+    height: 700px;
 }

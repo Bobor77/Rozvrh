@@ -1,0 +1,9 @@
+svg {
+    position: absolute;
+    left: 75px;
+    top: 54px;
+}
+
+line {
+    stroke-width: 10px;
+}
