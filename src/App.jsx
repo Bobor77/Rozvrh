@@ -20,7 +20,11 @@ class App extends React.Component {
                     </tr>
                 </thead>
                 <tbody>
-                    <Day name="PON"/>
+                    <Day name="PON" subjects=" odpN cvm tsv anj sjl obn"/>
+                    <Day name="UTO" subjects="mat fyz pos pos anj eko eko"/>
+                    <Day name="STR" subjects="mat anj sjl sgp cas odpG odpG"/>
+                    <Day name="ŠTV" subjects="asw anj mat fyz tsv pro pro"/>
+                    <Day name="PIA" subjects="sgp sos sjl pos cps kaj cio"/>
                 </tbody>
             </table>
         );
