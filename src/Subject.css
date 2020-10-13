@@ -30,7 +30,7 @@
     background-color: rgb(21, 228, 255);
 }
 
-.odpG {
+.odp {
     background-color: rgb(140, 0, 255);
 }
 
@@ -44,4 +44,9 @@
 
 .obn {
     background-color: rgb(0, 81, 255);
+}
+
+a {
+    color: #000;
+    text-decoration: none;
 }
